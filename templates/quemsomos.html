@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem Somos</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    <!--Menu-->
-    <div id="header">
-        <div class="conteudo">
-            <img src="imagens/logo.png" alt="logo UNES">
-            <div class="flex-container">
-                <a href="index.html">Home</a> |
-                <a href="quemsomos.html">Quem Somos</a> |
-                <a href="contato.html">Contato</a>
-            </div>
-        </div>
-    </div>
+{% extends "base.html" %}
+
+{% block conteudo %}
     <!--Corpo com a explicação do quem somos e lista-->
     <div class="conteudo">
         <div>
@@ -43,9 +25,4 @@
             <p>Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing elit. In ea cupiditate cumque error eveniet ipsum? Molestias aliquam fuga adipisci recusandae nam, dolores culpa nobis consequuntur earum odit ratione aut tenetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a saepe asperiores ab at velit nobis fuga dolores, in accusantium doloremque vitae perspiciatis, est vero praesentium obcaecati sint culpa ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, labore eos assumenda ducimus a quos amet sunt distinctio quisquam nemo culpa facere officia tempora aut quis doloremque, dolorum neque molestiae.</p>
         </div>
     </div>
-    <!--Rodapé-->
-    <footer>
-        <h4>Todos os direitos reservados</h4>
-    </footer>
-</body>
-</html>
+{% endblock %}
