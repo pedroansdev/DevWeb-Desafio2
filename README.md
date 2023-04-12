@@ -30,3 +30,25 @@
       <li>Base.html para poder padronizar o que será utilizado em todos os htmls</li>
     </ul>
 </ul>
+
+##
+
+## Como Executar
+
+1. Baixa o repositório em alguma pasta local
+2. No url da pasta principal(DevWeb-Desafio2), digite cmd e dê enter
+3. Insira os seguintes códigos:
+
+```
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+flask run
+```
+_Obs.: Caso você não consiga executar o pip, instale o python 3.11.2, e na hora da instalação, não se esqueça de selecionar a opção de instalação do pip junto_
+
+4. Após todos todos estes passos, abra o link http://127.0.0.1:5000 para executar o site
+5. Depois que você terminar de utilizar o site, não esqueça de executar o seguinte comando para sair do ambiente virtual:
+```
+deactivate
+```
