@@ -37,6 +37,12 @@
 
 1. Baixa o repositório em alguma pasta local
 2. No url da pasta principal(DevWeb-Desafio2), digite cmd e dê enter
+
+<details>
+  <summary>Bem aqui ó 👇</summary>
+  <img src="https://cdn.discordapp.com/attachments/733064358694748303/1095758937401340024/image.png">
+</details>
+
 3. Insira os seguintes códigos:
 
 ```
