@@ -35,8 +35,8 @@
 
 ## Como Executar
 
-1. Baixa o repositório em alguma pasta local
-2. No url da pasta principal(DevWeb-Desafio2), digite cmd e dê enter
+1. Baixe o repositório em alguma pasta local
+2. Na url da pasta principal(DevWeb-Desafio2), digite "cmd" e dê enter
 
 <details>
   <summary>Bem aqui ó 👇</summary>
@@ -53,8 +53,8 @@ flask run
 ```
 _Obs.: Caso você não consiga executar o pip, instale o python 3.11.2, e na hora da instalação, não se esqueça de selecionar a opção de instalação do pip junto_
 
-4. Após todos todos estes passos, abra o link http://127.0.0.1:5000 para executar o site
-5. Depois que você terminar de utilizar o site, não esqueça de executar o seguinte comando para sair do ambiente virtual:
+4. Após todos todos estes passos, abra o link http://127.0.0.1:5000 para finalmente aproveitar o site
+5. Depois que você terminar de utilizar o site, não esqueça de executar o seguinte comando(no cmd) para sair do ambiente virtual:
 ```
 deactivate
 ```
